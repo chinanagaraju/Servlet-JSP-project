@@ -1,0 +1,33 @@
+
+@charset "ISO-8859-1";
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+body {
+	display:flex;
+	background-color: pink;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+h2{
+	margin-top: 20px;
+}
+.main{
+	justify-content:center;
+	margin-top:20px;
+	display:flex;
+	flex-direction:column;
+	border-radius:20px;
+	height:260px;
+	width: 400px;
+	background-color: blue;
+	color:black;
+}
+a{
+	margin-top:10px;
+	color:pink;
+	text-decoration: none;
+}
